@@ -16,7 +16,7 @@ backsectionButton1.appendChild(el);
 sectionArrowNext1.addEventListener("click", () => {
     windowWidth1 = window.innerWidth;
 
-    if (windowWidth1 >= 411 && windowWidth1 <= 740) {
+    if (windowWidth1 >= 380 && windowWidth1 <= 740) {
         if (count1 > 4) return;
 
         count1++;
@@ -29,7 +29,7 @@ sectionArrowNext1.addEventListener("click", () => {
 
 sectionArrowPrev1.addEventListener("click", () => {
     windowWidth1 = window.innerWidth;
-    if (windowWidth1 >= 411 && windowWidth1 <= 740) {
+    if (windowWidth1 >= 380 && windowWidth1 <= 740) {
         if (count1 === 1) return;
 
         count1--;
