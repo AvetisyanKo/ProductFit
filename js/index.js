@@ -19,7 +19,7 @@ let paddinglogoIcons = 0;
 for (ix = 0; ix < logoIcons.length; ix++) {
     sumSizeLogoIcons += logoIcons[ix].clientWidth;
 }
-console.log(sumSizeLogoIcons);
+
 nextBtn.addEventListener("click", () => {
 
     /*Window Width*/

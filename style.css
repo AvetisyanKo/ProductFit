@@ -1,4 +1,4 @@
-.conteiner {
+.container {
     width: 100%;
     max-width: 1440px;
     margin: 0 auto;
@@ -210,7 +210,7 @@
 .buttonSignUp:hover {
     filter:contrast(150%);
 }
-.conteiner button{
+.container button{
     display: none;
 }
 .sectionNavigation-manual{
