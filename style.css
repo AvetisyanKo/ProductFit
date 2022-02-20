@@ -1,3 +1,4 @@
+
 .container {
     width: 100%;
     max-width: 1440px;
@@ -164,6 +165,7 @@
     margin-left: 0 auto;
 }
 .sectionPictur {
+    user-select:none;
     max-width: 100%;
     padding-top: 33px;
     padding-left: 15%;
@@ -184,6 +186,7 @@
 }
 
 .sectionTitle {
+    user-select:none;
     width: 100%;
     max-width: 410px;
     height: 120px;
@@ -530,6 +533,7 @@
 }
 
 .copyrightFooterText {
+    user-select: none;
     display: flex;
     width: 205.14px;
     height: 19px;
@@ -559,7 +563,7 @@
     position: absolute;
     width: 190px;
     height: 19px;
-    
+    user-select: none;
 
     font-family: 'Gilroy',sans-serif;
     font-style: normal;
@@ -584,6 +588,7 @@
     filter: contrast(300%);
 }
 .footerToContact {
+    position:absolute;
     width: 200px;
     display: grid;
     grid-template-areas: 
@@ -596,6 +601,7 @@
     text-decoration: none;
 }
 .toContact{
+    position:absolute;
     width: 150px;
     height: 19px;
     font-family: 'Gilroy',sans-serif;
@@ -884,6 +890,7 @@
         padding-right: 181px;
     }
     .footerToContactBack{
+        user-select: none;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -937,6 +944,7 @@
         display: flex;
     }
     .footerDataTextBack{
+        user-select: none;
         width: 290.2px;
         height: 136px;
     
